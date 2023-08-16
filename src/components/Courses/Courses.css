@@ -1,0 +1,39 @@
+.course {
+  background-color: aliceblue;
+  padding: 1 rem 2rem;
+  margin-bottom: 10px;
+  border: solid rgb(86, 196, 243);
+  display: flex;
+  align-items: center;
+}
+.title {
+  width: 70%;
+}
+.details {
+  width: 30%;
+}
+.courseslist {
+  width: 100%;
+  margin-bottom: 10px;
+  display: grid;
+  gap: 2rem;
+  border: solid rgb(152, 171, 247);
+}
+@media screen {
+  .courseslist {
+    grid-template-columns: repeat(1, 1fr);
+    align-items: start;
+  }
+}
+.search-bar {
+  margin-bottom: -20;
+  display: flex;
+  align-items: center;
+}
+.search-input {
+  width: 300px;
+  height: 30px;
+}
+.add-new-course {
+  margin-left: auto;
+}
